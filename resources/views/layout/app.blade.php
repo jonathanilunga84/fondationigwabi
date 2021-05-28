@@ -11,6 +11,7 @@
         <!-- Vendor CSS Files -->
         <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
         <link href="{{ asset('vendors/icofont/icofont.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('vendors/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
 
         <!-- Style Css -->
         <link href="{{ asset('css/style.css') }}" rel="stylesheet">
@@ -29,6 +30,7 @@
             @yield('contenu')
         </div>
 
+        <!-- Vendor JS Files -->
         <script src="{{ asset('js/jquery.min.js') }}"></script>
         <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
 
