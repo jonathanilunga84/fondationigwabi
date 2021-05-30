@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\AppsController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,6 +17,9 @@ use Illuminate\Support\Facades\Route;
     return view('welcome');
 });*/
 
-Route::get('/', function() {
-    return view('pages.accueil');
+Route::get('', function() {
+    return view('pages.app');
 })->name('home');
+
+//Route::get('contact',[PostController::class,'contact'])->name('contact');
+Route::get('contact',[AppsController::class,'contact'])->name('contact');

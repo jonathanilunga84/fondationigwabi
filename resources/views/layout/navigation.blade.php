@@ -24,10 +24,10 @@
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="{{route('home')}}">Accueil</a></li>
-          <li><a href="#about">Mission</a></li>
+          <li class="actived"><a href="{{route('home')}}">Accueil</a></li>
+          <li><a href="">Mission</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Appropo</a></li>
+          <li><a href="">Appropo</a></li>
           <!--li class="drop-down"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -45,7 +45,8 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li-->
-          <li><a href="#contact">Contact</a></li>
+          
+          <li><a href="{{ route('contact') }}">Contact</a></li>
 
         </ul>
       </nav><!-- .nav-menu -->

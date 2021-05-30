@@ -30,15 +30,15 @@
             @yield('contenu')
         </div>
 
+        <div class="container-fluid">
+            @include('layout.footer')
+        </div>
+
         <!-- Vendor JS Files -->
         <script src="{{ asset('js/jquery.min.js') }}"></script>
         <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
 
         <!-- Template Main JS File -->
         <script src="{{asset('js/main.js')}}"></script>
-
-        <div class="container-fluid">
-            @include('layout.footer')
-        </div>
     </body>
 </html>

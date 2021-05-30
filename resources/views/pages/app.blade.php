@@ -4,10 +4,16 @@
     Fondation Igwabi
 @endsection
 
+
 @section('contenu')
+<style>
+ .tp{
+   margin-bottom:5000px;
+ }
+</style>
 
     <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex align-items-center">
+    <section id="hero" class="d-flex align-items-center tp">
         <div class="container" data-aos="zoom-out" data-aos-delay="100">
             <h1>Bienvenue sur la <span>Fondation Igwabi</spa></h1>
             <h2>vous étes a la bonne place et a l'heure qu'il faut</h2>
@@ -19,6 +25,55 @@
     </section><!-- End Hero section -->
 
     <main id="main">
+         <!-- ======= Contact Section ======= -->
+        
+    <!-- ======= About Section ======= -->
+    <section id="aboutz" class="about section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <h3>Find Out More <span>About Us</span></h3>
+          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="zoom-out" data-aos-delay="100">
+            <img src="{{ asset('images/Igwabi.jpeg')}}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <p class="font-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p>
+            <ul>
+              <li>
+                <i class="bx bx-store-alt"></i>
+                <div>
+                  <h5>Ullamco laboris nisi ut aliquip consequat</h5>
+                  <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
+                </div>
+              </li>
+              <li>
+                <i class="bx bx-images"></i>
+                <div>
+                  <h5>Magnam soluta odio exercitationem reprehenderi</h5>
+                  <p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi</p>
+                </div>
+              </li>
+            </ul>
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
 
         <!-- ======= Contact Section ======= -->
         <section id="contact" class="contact">
@@ -94,9 +149,13 @@
                 </div>
 
                 </div>
+              
 
             </div>
         </section><!-- End Contact Section -->
+        <div id="cont">
+                      <h1>MEKA</h1>
+        </div>
     </main><!-- End #main -->
 
 @endsection
