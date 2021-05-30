@@ -27,7 +27,7 @@
           <li class="actived"><a href="{{route('home')}}">Accueil</a></li>
           <li><a href="">Mission</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="">Appropo</a></li>
+          <li><a href="{{route('about')}}">Appropo</a></li>
           <!--li class="drop-down"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>

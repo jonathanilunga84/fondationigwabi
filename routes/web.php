@@ -21,5 +21,5 @@ Route::get('', function() {
     return view('pages.app');
 })->name('home');
 
-//Route::get('contact',[PostController::class,'contact'])->name('contact');
+Route::get('about',[AppsController::class,'about'])->name('about');
 Route::get('contact',[AppsController::class,'contact'])->name('contact');

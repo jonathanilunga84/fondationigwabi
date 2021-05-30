@@ -6,14 +6,11 @@
 
 
 @section('contenu')
-<style>
- .tp{
-   margin-bottom:5000px;
- }
-</style>
+  <style>
+  </style>
 
-    <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex align-items-center tp">
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center tp">
         <div class="container" data-aos="zoom-out" data-aos-delay="100">
             <h1>Bienvenue sur la <span>Fondation Igwabi</spa></h1>
             <h2>vous étes a la bonne place et a l'heure qu'il faut</h2>
@@ -24,11 +21,11 @@
         </div>
     </section><!-- End Hero section -->
 
-    <main id="main">
+  <main id="main">
          <!-- ======= Contact Section ======= -->
         
     <!-- ======= About Section ======= -->
-    <section id="aboutz" class="about section-bg">
+    <section id="about" class="about section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -75,8 +72,8 @@
     </section><!-- End About Section -->
 
 
-        <!-- ======= Contact Section ======= -->
-        <section id="contact" class="contact">
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
@@ -153,9 +150,6 @@
 
             </div>
         </section><!-- End Contact Section -->
-        <div id="cont">
-                      <h1>MEKA</h1>
-        </div>
-    </main><!-- End #main -->
+  </main><!-- End #main -->
 
 @endsection
