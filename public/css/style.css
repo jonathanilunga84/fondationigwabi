@@ -539,6 +539,20 @@ section {
     width: 50%;
   }
 }
+/* 
+======= Autres photos Accueil Section ======= -->
+*/
+
+.post img{
+  border: 5px solid blue;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 10px;
+}
+.postgrand img{
+  border: 5px solid blue;
+  width: 100%;
+}
 
 /*--------------------------------------------------------------
 # Contact
