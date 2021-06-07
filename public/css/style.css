@@ -1,6 +1,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+* {
+  box-sizing: border-box;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     color: #444444;
@@ -32,11 +36,14 @@ body {
   # Top Bar
   --------------------------------------------------------------*/
   #topbar {
-    background: #106eea;
+    /*background: #106eea;*/
+    background-color: #d72631;
     height: 40px;
     font-size: 14px;
     transition: all 0.5s;
-    color: #fff;
+    font-weight: bold;
+    /*color: #fff;*/
+    color: #e2d810;
   }
   
   #topbar.topbar-scrolled {
@@ -45,7 +52,8 @@ body {
   
   #topbar .contact-info a {
     line-height: 1;
-    color: #fff;
+    /*color: #fff;*/
+    color: #e2d810;
     transition: 0.3s;
   }
   
@@ -63,7 +71,8 @@ body {
   }
   
   #topbar .social-links a {
-    color: rgba(255, 255, 255, 0.6);
+    /*color: rgba(255, 255, 255, 0.6);*/
+    color: #e2d810;
     padding-left: 15px;
     display: inline-block;
     line-height: 1px;
@@ -71,7 +80,7 @@ body {
   }
   
   #topbar .social-links a:hover {
-    color: #fff;
+    color: #fff
 }
 
 /*--------------------------------------------------------------
@@ -102,11 +111,13 @@ body {
   }
   
   #header .logo a {
-    color: #222222;
+    /*color: #222222;*/
+    color: #e2d810;
   }
   
   #header .logo a span {
-    color: #106eea;
+    /*color: #106eea;*/
+    color: #e2d810;
   }
   
   #header .logo img {
@@ -147,10 +158,11 @@ body {
   .nav-menu a {
     display: block;
     position: relative;
-    color: #222222;
+    /*color: #222222;*/
+    color: #d72631;
     transition: 0.3s;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 900;
     padding: 0 3px;
     font-family: "Open Sans", sans-serif;
   }
@@ -174,7 +186,8 @@ body {
   }
   
   .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-    color: #106eea;
+    /*color: #106eea;*/
+    color: #e2d810;
   }
   
   .nav-menu .drop-down ul {
@@ -211,7 +224,8 @@ body {
   }
   
   .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-    color: #106eea;
+    /*color: #106eea;*/
+    color: red;
   }
   
   .nav-menu .drop-down > a:after {
@@ -261,7 +275,8 @@ body {
     top: 15px;
     z-index: 9998;
     border: 0;
-    background: none;
+    /*background: none;*/
+    background-color:#e2d810;
     font-size: 24px;
     transition: all 0.4s;
     outline: none !important;
@@ -271,7 +286,8 @@ body {
   }
   
   .mobile-nav-toggle i {
-    color: #222222;
+    /*color: #222222;*/
+    color:#d72631;
   }
   
   .mobile-nav {
@@ -282,7 +298,8 @@ body {
     left: 15px;
     z-index: 9999;
     overflow-y: auto;
-    background: #fff;
+    /*background: #fff;*/
+    background-color:#e2d810;
     transition: ease-in-out 0.2s;
     opacity: 0;
     visibility: hidden;
@@ -299,14 +316,18 @@ body {
   .mobile-nav a {
     display: block;
     position: relative;
-    color: #222222;
+    /*color: #222222;*/
+    color:#d72631;
     padding: 10px 20px;
     font-weight: 500;
     outline: none;
   }
   
   .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-    color: #106eea;
+   /* color: #106eea;*/
+   color: red;
+   font-size: 20px;
+   font-weight: bold;
     text-decoration: none;
   }
   
@@ -364,56 +385,31 @@ body {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
-  width: 100%;
-  height: 90vh;
-  background: url("/images/Webp.net-resizeimage.png");
+#hero5{ 
+  margin-bottom-: 50px;
+}
+#head-image { 
+  height: 80vh;
+  background: url("/images/Igwabi1.png") no-repeat;
   background-size: cover;
-  position: relative;
 }
-
-#hero:before {
-  content: "";
-  background: rgba(255, 255, 255, 0.6);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
+#hero5 #head-content h1{     
+  margin: 0;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;  
 }
-
-#hero .container {
-  position: relative;
-  padding-top: 132px;
+#hero5 #head-content{
+  padding-top: 12% ;
 }
-
 @media (max-width: 992px) {
   #hero .container {
     padding-top: 58px;
   }
 }
-
-#hero h1 {
-  margin: 0;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 56px;
-  color: #222222;
-  font-family: "Poppins", sans-serif;
+#hero5 h1 span {
+  color: #e2d810
 }
-
-#hero h1 span {
-  color: #106eea;
-}
-
-#hero h2 {
-  color: #555555;
-  margin: 5px 0 30px 0;
-  font-size: 24px;
-  font-weight: 400;
-}
-
-#hero .btn-get-started {
+#hero5 .btn-get-started {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -423,77 +419,70 @@ body {
   padding: 10px 28px;
   border-radius: 4px;
   transition: 0.5s;
-  color: #fff;
+  color: #e2d810;
   background: #106eea;
 }
-
-#hero .btn-get-started:hover {
+#hero5 .btn-get-started:hover {
   background: #247cf0;
 }
-
-#hero .btn-watch-video {
+#hero5 .btn-watch-video {
   font-size: 16px;
   display: inline-block;
   padding: 10px 25px 8px 40px;
   transition: 0.5s;
   margin-left: 25px;
-  color: #222222;
+  color: #e2d810;
   position: relative;
-  font-weight: 600;
+  font-weight: bold;
 }
-
-#hero .btn-watch-video i {
-  color: #106eea;
+#hero5 .btn-watch-video i {
+  color: #e2d810;
   font-size: 32px;
   position: absolute;
   left: 0;
   top: 7px;
   transition: 0.3s;
 }
-
-#hero .btn-watch-video:hover {
-  color: #106eea;
+@media only screen and (min-width: 1024px) {
+  #hero5{
+    margin-top: 130px;
+  }
+  #hero5 #head-content{   
+    padding-top: 12%;  
+}
 }
 
-#hero .btn-watch-video:hover i {
-  color: #3b8af2;
-}
-
-@media (min-width: 1024px) {
+@media only screen and (max-width: 1023px) {
+  #hero5{
+    margin-top: 90px;
+  }
   #hero {
     background-attachment: fixed;
+  }  
+  #hero5 #head-content{
+    padding-top:  5%;
+    padding-bottom-: 10px;
   }
 }
-
-@media (max-width: 768px) {
-  #hero {
+@media only screen and (max-width: 768px) {
+  #hero5{
+    margin-top: 90px;
+  }
+  #head-image { 
     height: 100vh;
-  }
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-  #hero .btn-get-started, #hero .btn-watch-video {
-    font-size: 13px;
+  } 
+  #hero5 #head-content{   
+    padding-top: 0px;  
   }
 }
-
 @media (max-height: 500px) {
-  #hero {
-    height: 120vh;
-  }
+  
 }
-
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 110px;
   overflow: hidden;
 }
 

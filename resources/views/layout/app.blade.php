@@ -26,7 +26,7 @@
             @include('layout.navigation')
         </div>
 
-        <div id="imgHead" class="container-fluid">
+        <div id="imgHeadZ" class="container-fluid">
             @yield('contenu')
         </div>
 

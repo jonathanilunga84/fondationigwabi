@@ -7,75 +7,48 @@
 
 @section('contenu')
   <style>
+    /*#hero5{
+      
+      margin-top: 130px;
+      
+      padding-top-: 150px;
+      background-: red;
+      margin-bottom: 50px;
+    }*/
+    #hero5 .container-fluid{
+      padding: 0;
+      border-top: 5px solid yellow;     
+      margin-: 0;
+      
+    }
+    
+    #hero5 #head-content{
+      background-color: #d72631;
+      text-align: center;
+      
+    }
+    
   </style>
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center tp">
-        <div class="container" data-aos="zoom-out1" data-aos-delay="100">
-            <h1>Bienvenue A la <span> FONDATION IGWABI AVEC DIEU NOUS FERONS DES EXPLOITS (FI-ADEX)</spa></h1>
-            <!--h2>avec DIEUX nous ferons des exploits</h2-->
-            <!-- h2>vous étes a la bonne place et a l'heure qu'il faut</h2-->
-            <div class="d-flex">
-                <a href="#appropo" class="btn-get-started scrollto">Get Started</a>
-                <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox btn-watch-video" data-vbtype="video" data-autoplay="true"> Watch Video <i class="icofont-play-alt-2"></i></a>
-            </div>
+  <div id="hero5">
+    <div id="cont" class="container-fluid">
+      <div class="row"> 
+        <div id="head-image" class="col-md-6 col-lg-6">
+
         </div>
-  </section><!-- End Hero section -->
-
-  <main id="main">
-    <!-- ======= Autres photos Accueil Section ======= -->
-    <section id="featured-services" class="featured-services">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row">
-          <div class="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="post" class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <img src="{{ asset('images/accueil_img1.jpeg') }}" alt="">
-              <!--div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi
-              </p-->
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="post" class="icon-box" data-aos="fade-up" data-aos-delay="200">
-              <img src="{{ asset('images/accueil_img2.jpeg') }}" alt="">
-              <!--div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-              </p-->
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="post" class="icon-box" data-aos="fade-up" data-aos-delay="300">
-              <img src="{{ asset('images/accueil_img3.jpeg') }}" alt="">
-              <!--div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-              </p-->
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="post" class="icon-box" data-aos="fade-up" data-aos-delay="400">
-              <img src="{{ asset('images/accueil_img4.jpeg') }}" alt="">
-              <!--div class="icon"><i class="bx bx-world"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-              </p -->
-            </div>
-          </div>
-          <div class="col-md-12">
-            <div class="postgrand">
-              <img src="{{ asset('images/Webp.net-resizeimage.png') }} " alt="">
-            </div>
+        <div id="head-content" class="col-md-6 col-lg-6">
+          <h1> <span> FONDATION IGWABI AVEC DIEU NOUS FERONS DES EXPLOITS (FI-ADEX)</spa></h1>
+          <div class="d-flex bg-primary">
+            <a href="#appropo" class="btn-get-started scrollto">Get Started</a>
+            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox btn-watch-video" data-vbtype="video" data-autoplay="true"> Watch Video <i class="icofont-play-alt-2"></i></a>
           </div>
         </div>
       </div>
-    </section><!-- End Featured Services Section -->
-        
+    </div>
+  </div>
+
+  <main id="main">
+         
     <!-- ======= About Section ======= -->
     <section id="about" class="about section-bg">
       <div class="container" data-aos="fade-up">
