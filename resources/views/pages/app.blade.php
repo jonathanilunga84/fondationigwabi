@@ -6,28 +6,7 @@
 
 
 @section('contenu')
-  <style>
-    /*#hero5{
-      
-      margin-top: 130px;
-      
-      padding-top-: 150px;
-      background-: red;
-      margin-bottom: 50px;
-    }*/
-    #hero5 .container-fluid{
-      padding: 0;
-      border-top: 5px solid yellow;     
-      margin-: 0;
-      
-    }
-    
-    #hero5 #head-content{
-      background-color: #d72631;
-      text-align: center;
-      
-    }
-    
+  <style>   
   </style>
 
   <div id="hero5">
@@ -47,21 +26,42 @@
     </div>
   </div>
 
+  <div id="post">  
+    <div class="container-fluid"> 
+      <div class="row bg-danger9">
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <img class="post-image" src="{{ asset('images/accueil_img1-min.jpeg') }}" alt="">
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <img class="post-image" src="{{ asset('images/accueil_img2-min.jpeg') }}" alt="">
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <img class="post-image" src="{{ asset('images/accueil_img3-min.jpeg') }}" alt="">
+        </div>
+      </div>
+      <div id="postgrand" class="row">
+        <div class="col-sm-6 col-md-12 col-lg-12"> 
+          <img class="post-image5" src="{{ asset('images/accueil_img5-min.jpeg') }}" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  
   <main id="main">
          
     <!-- ======= About Section ======= -->
     <section id="about" class="about section-bg">
-      <div class="container" data-aos="fade-up">
+      <div class="container-fluid" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>About</h2>
+          <h2>À propos</h2>
           <h3>Find Out More <span>About Us</span></h3>
           <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
         </div>
 
         <div class="row">
-          <div class="col-lg-6" data-aos="zoom-out" data-aos-delay="100">
-            <img src="{{ asset('images/Igwabi.jpeg')}}" class="img-fluid" alt="">
+          <div class="col-sm-12 col-md-6 col-lg-6" data-aos="zoom-out" data-aos-delay="100">
+            <img src="{{ asset('images/Igwabi2.jpeg')}}" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
             <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>

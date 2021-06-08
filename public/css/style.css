@@ -385,13 +385,18 @@ body {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero5{ 
-  margin-bottom-: 50px;
+#hero5 .container-fluid{
+  padding: 0;
+  border-top: 5px solid yellow;      
 }
 #head-image { 
   height: 80vh;
   background: url("/images/Igwabi1.png") no-repeat;
   background-size: cover;
+}
+#hero5 #head-content{
+  background-color: #d72631;
+  text-align: center;      
 }
 #hero5 #head-content h1{     
   margin: 0;
@@ -461,7 +466,6 @@ body {
   }  
   #hero5 #head-content{
     padding-top:  5%;
-    padding-bottom-: 10px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -478,11 +482,36 @@ body {
 @media (max-height: 500px) {
   
 }
+/* 
+======= Autres photos Accueil Section ======= -->
+*/
+#post{
+  margin-left: -15px;
+  margin-right: -15px;
+  background-color: #fff;
+}
+
+#post .container-fluid{
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#post .post-image{
+  width: 100%;
+  height: 300px;
+  background-size: contain;
+  margin-bottom: 10px;
+}
+#postgrand .post-image5{
+  width: 100%;
+  height: 800px;
+  background-size: contain;
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 110px;
+  padding-top: 110px;
   overflow: hidden;
 }
 
@@ -528,20 +557,7 @@ section {
     width: 50%;
   }
 }
-/* 
-======= Autres photos Accueil Section ======= -->
-*/
 
-.post img{
-  border: 5px solid blue;
-  width: 100%;
-  height: 400px;
-  margin-bottom: 10px;
-}
-.postgrand img{
-  border: 5px solid blue;
-  width: 100%;
-}
 
 /*--------------------------------------------------------------
 # Contact
