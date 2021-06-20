@@ -4,6 +4,9 @@
     Fondation Igwabi
 @endsection
 
+<style type="text/css">
+
+</style>
 
 @section('contenu')
   <style>   
@@ -55,8 +58,8 @@
 
         <div class="section-title">
           <h2>À propos</h2>
-          <h3>Find Out More <span>About Us</span></h3>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+          <h3>QUI SOMMES-NOUS <mark class="numExposant">(1)</mark> <span>?</span></h3>
+          <p>L'Initiatteur fondateur: <span>Mr HENRI DEPAUL IGWABI, (MZÉE)</span>;</p>
         </div>
 
         <div class="row">
@@ -64,32 +67,124 @@
             <img src="{{ asset('images/Igwabi2.jpeg')}}" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-            <p class="font-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
             <ul>
               <li>
                 <i class="bx bx-store-alt"></i>
                 <div>
-                  <h5>Ullamco laboris nisi ut aliquip consequat</h5>
-                  <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
+                  <h5>Une association san but Lucratif, qui réuni des hommes et des femmes en vu d'atteindre les objectifs de la FI-ADEX (3)&(4)</h5>
                 </div>
               </li>
               <li>
                 <i class="bx bx-images"></i>
                 <div>
-                  <h5>Magnam soluta odio exercitationem reprehenderi</h5>
-                  <p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi</p>
+                  <h5>FI-ADEX est a caractère sociopolitique et est laîc </h5>
+                </div>
+              </li>
+              <li>
+                <i class="bx bx-images"></i>
+                <div>
+                  <h5>FI-ADEX est non commerciale</h5>
+                </div>
+              </li>
+              <li>
+                <i class="bx bx-images"></i>
+                <div>
+                  <h5>Crée le 15 janvier 2018 en guise de la compagne électorale pour l'élection de Mme Pauline IGWABI MUSHENGEZI comme députée Nationale et Provinciale du Haut-Katanga</h5>
                 </div>
               </li>
             </ul>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
+          </div>
+        </div><br />
+
+        <div  class="container ext-justify">
+          <div class="row">
+            <div class="col-sm-12 col-lg-12">
+             <div class="section-title">
+                <h3 class="text-center">QUI SONT NOS MEMBRES<span class="numExposant">(2)</span></h3>
+             </div>
+              <p>Est donc membre toutes personnes Humaines sans distinction de race, sexes, âges, religions, tributs, d'ethnies, d'appartenances politique, de niveau de revenu, ... Toute personne qui a signer la charte <span> FI-ADEX</span>, qui a sa fiche de membre et dispose de sa carte de membre, cette dernière est annuel, et qui est en ordre des cotisations.</p>
+
+              <h6>La catégorie des membres:</h6>
+              <ul>
+                <li>Membre fondateur: L'initiateur;</li>
+                <li>Membres d'honneur;</li>
+                <li>Membres sympathisants;</li>
+                <li>Membres effectifs</li>
+              </ul>
+              <h6>I) Tous membres doit cotiser de son argent régulièrement</h6>
+              <p>Toutes les cotisations sont solidaires entre les membres, ceux y compris les fond ou financement, les dons et legs obtenus; <strong>Le membre est actif lorsqu'il est en ordre des cotisations.</strong> <br /> Ces cotisations sont mensuelles et ponctuelles lorsque les membres sont en réunion ou lors d'une nécessité exprimée par un de membre. </p>
+            </div>
+          </div>
+
+          <div id="" class="row">
+            <div class="col-sm-12 col-lg-4  bg-danger">
+              <div class="section-title">
+                <h3>FI-ADEX LUTTE CONTRE<span class="numExposant">(3)</span></h3>
+              </div>
+              <ul>
+                  <li>Les injustice,</li>
+                  <li>Le tribalisme, le clanisme, le régionalisme et toutes formes de ségrégation</li>
+                  <li>La pauvreté et la misère,</li>
+                  <li>La mauvaise gouvernance,</li>
+                  <li>toutes formes des anti valeurs,</li>
+                  <li>La précarité des citoyens,</li>
+                  <li>L'oisiveté et instrumentalisation des jeunes </li>
+                </ul>
+            </div>
+
+            <div class="col-sm-12 col-lg-8 bg-success">
+              <div class="section-title">
+                <h3 class="text-center">FI-ADEX PROMEUT<span class="numExposant">(4)</span></h3>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <ol>
+                    <li>
+                      FI-ADEX est une communauté d'amour ou nous promouvons la solidarité et la fraternité Humanitaire entre les membres et envers tous les hommes et toutes les femmes désireux;
+                    </li>
+                    <li>
+                      Des projets dit AGR c-a-d des activités génératrices des revenus en faveur de ses membres, principalement pour les catégories les plus vulnérable;</li>
+                    <li>
+                      Des projets sociaux de base tels les écoles, les orphelinats, les hospices des vieillards, les forages d'eau portables, ... 
+                    </li>
+                    <li>
+                      Des projets de lutte contre le phénomène des enfants de la rue;
+                    </li>
+                    <li>
+                      Des projets d'encadrement de la jeunesse pour luter contre leur instrumentalisation et l'oisiveté;
+                    </li>
+                    <li>
+                      Des projets de créations d'emplois rémunérateurs, fabrique des savons, ... 
+                    </li>
+                    <li>
+                      La création des petites entreprises, d'entreprendrait féminin et des jeunes;
+                    </li>
+
+                  </ol>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <li>
+                      Des projets de micro finances rotatifs
+                  </li>
+                    <li>
+                      Des aides humanitaires envers les populations sinistrées lors des catastrophes, ...;
+                    </li>
+                    <li>
+                      L'assistance judiciaire envers toutes personnes défavorisées et/ou pauvres sans revenus;
+                    </li>
+                    <li>
+                      La formation des leaders sociaux politiques locaux, et nationaux sur le leadership, le patriotisme, la bonne gouvernance, les enjeux électroraux,...;
+                    </li>
+                    <li>
+                      La formation des métiers;
+                    </li>
+                    <li>
+                      L'octroi des brevets, diplômes, des trophées de mérites civiques aux plus méritants.
+                    </li>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
