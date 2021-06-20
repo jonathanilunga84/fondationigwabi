@@ -59,7 +59,7 @@
         <div class="section-title">
           <h2>À propos</h2>
           <h3>QUI SOMMES-NOUS <mark class="numExposant">(1)</mark> <span>?</span></h3>
-          <p>L'Initiatteur fondateur: <span>Mr HENRI DEPAUL IGWABI, (MZÉE)</span>;</p>
+          <p>L'Initiatteur fondateur: <span>Mr HENRI DE PAUL IGWABI,(MZÉE)</span>;</p>
         </div>
 
         <div class="row">
