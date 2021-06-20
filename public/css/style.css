@@ -568,10 +568,13 @@ section {
 # A propo
 --------------------------------------------------------------*/
 h3 .numExposant{
-    color: blue;
-    font-weight: bold;
-    font-size: 15px;
-  }
+  color: blue;
+  font-weight: bold;
+  font-size: 15px;
+}
+#card-fonction {
+  font-family: "Times New Roman", Times, serif;
+}
 
 /*--------------------------------------------------------------
 # Contact

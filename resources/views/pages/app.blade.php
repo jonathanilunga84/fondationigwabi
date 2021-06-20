@@ -5,7 +5,13 @@
 @endsection
 
 <style type="text/css">
+#partenair{
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
 
+
+}
 </style>
 
 @section('contenu')
@@ -122,7 +128,7 @@
                 <h3>FI-ADEX LUTTE CONTRE<span class="numExposant">(3)</span></h3>
               </div>
               <ul>
-                  <li>Les injustice,</li>
+                  <li>Les injustices,</li>
                   <li>Le tribalisme, le clanisme, le régionalisme et toutes formes de ségrégation</li>
                   <li>La pauvreté et la misère,</li>
                   <li>La mauvaise gouvernance,</li>
@@ -132,7 +138,7 @@
                 </ul>
             </div>
 
-            <div class="col-sm-12 col-lg-8 bg-success">
+            <div class="col-sm-12 col-lg-8 bg-success-">
               <div class="section-title">
                 <h3 class="text-center">FI-ADEX PROMEUT<span class="numExposant">(4)</span></h3>
               </div>
@@ -188,6 +194,46 @@
           </div>
         </div>
 
+        <div id="partenair">
+          <div class="row">
+            <div class="col-sm-12 col-lg-5 offset-lg-1">
+              <div class="card">
+               
+                <div id="card-fonction" class="card-body">
+                  <div class="section-title">
+                    <h3 class="text-center">QUI SONT NOS PARTENAIRES<span class="numExposant">(5)</span></h3>
+                  </div> 
+                  <ul class="font-weight-bold">
+                    <li>Les organisation de la société civile</li>
+                    <li>Les organisation internationales</li>
+                    <li>Les organisations non gouvernementales</li>
+                    <li>les Gourvenements</li>
+                    <li>Les serices étatiques publique</li>
+                    <li>Les confessions religieuses</li>
+                    <li>Les partie politique</li>
+                    <li>Les hôpitaux et centre hospitaliers</li>
+                    <li>Toutes personnes morale ou physiques qui le désire</li>
+                  </ul>                 
+                  <p class=""> <strong>Ces partenaires auront à signer des contrants spécifiques.</strong></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-lg-5">
+              <div class="card">
+                
+                <div id="card-fonction" class="card-body">
+                  <div class="section-title">
+                    <h3 class="text-center">DU FONCTIONNEMENT<span class="numExposant">(6)</span></h3>
+                  </div> 
+                  <p class="">
+                    Nous travaillons avec Léa méthode du leadership de proximité afin de toucher au plus profonds les réalité de nos bases. De l'initiateur, nous avons directement les animateurs des bases et les membres effectifs. Un comité central entoure l'initiateur pour lui faciliter les mouvements. 
+                  </p>                         
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section><!-- End About Section -->
 
@@ -208,7 +254,7 @@
                         <div class="info-box mb-4">
                             <i class="bx bx-map"></i>
                             <h3>Autre Address</h3>
-                            <p>000 C/Ngaliema, Ville/Lubumbashi, pays/DRC Congo</p>
+                            <p>N°: I. Av:MULENDA<br> Q/ HEWA-BORA, C/ KAMPEMBA <br> DRC Congo</p>
                         </div>
                     </div>
 
@@ -216,7 +262,7 @@
                         <div class="info-box  mb-4">
                             <i class="bx bx-envelope"></i>
                             <h3>Email</h3>
-                            <p>fondationIgwabi@gmail.com</p>
+                            <p>fiadex@gmail.com/p>
                         </div>
                     </div>
 
@@ -224,7 +270,7 @@
                         <div class="info-box  mb-4">
                         <i class="bx bx-phone-call"></i>
                         <h3>Appel</h3>
-                        <p>+243 81 174 8411</p>
+                        <p>+243 995 343 904</p>
                         </div>
                     </div>
 
