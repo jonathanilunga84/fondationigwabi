@@ -469,7 +469,7 @@ body {
   }
 }
 @media only screen and (max-width: 768px) {
-  #hero5{
+  #hero5 {
     margin-top: 90px;
   }
   #head-image { 
@@ -506,6 +506,12 @@ body {
   width: 100%;
   height: 800px;
   background-size: contain;
+}
+@media only screen and (max-width: 768px) {
+  #postgrand .post-image5{
+    height: 300px;
+    background-size: contain;
+  }
 }
 /*--------------------------------------------------------------
 # Sections General
