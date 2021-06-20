@@ -20,23 +20,23 @@
     <div class="row">
 
       <div class="col-lg-3 col-md-6 footer-contact">
-        <h3>Siege general<span>.</span></h3>
+        <h3>A.s.b.l<span>.</span></h3>
         <p>
-          000 Ngaliema<br>
-          Lubumbashi<br>
+          N°: I. Av:MULENDA<br>
+          Q/ HEWA-BORA, C/ KAMPEMBA  <br>
           DRC Congo <br><br>
-          <strong>Phone:</strong> +243 81 174 8411<br>
-          <strong>Email:</strong> fondationigwabi@gmail.com<br>
+          <strong>Phone:</strong> +243 995 343 904<br>
+          <strong>Email:</strong> fiadex@gmail.com<br>
         </p>
       </div>
 
       <div class="col-lg-3 col-md-6 footer-links">
-        <h4>Useful Links</h4>
+        <h4>Menu</h4>
         <ul>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Accueil</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="{{route('home')}}">Accueil</a></li>
           <li><i class="bx bx-chevron-right"></i> <a href="#">Mission</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Appropo</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="{{route('about')}}">Appropo</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="{{ route('contact') }}">Contact</a></li>
           <!--li><i class="bx bx-chevron-right"></i> <a href="#"></a></li-->
         </ul>
       </div>
@@ -53,8 +53,8 @@
       </div--->
 
       <div class="col-lg-3 col-md-6 footer-links">
-        <h4>Our Social Networks</h4>
-        <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+        <h4>Nos réseaux sociaux</h4>
+        <p></p>
         <div class="social-links mt-3">
           <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
           <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
